@@ -1,0 +1,84 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+\usepackage{paracol}
+\usepackage{hyperref}
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{Black}{HTML}{000000}
+\definecolor{Purpe}{HTML}{B038E8}
+\colorlet{heading}{Black}
+\colorlet{accent}{Black}
+\colorlet{emphasis}{Purple}
+\colorlet{body}{Black}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\addbibresource{sample.bib}
+\usepackage{xcolor}
+\begin{document}
+
+\name{\color{Black}Aditya Raj}
+\personalinfo{
+\email{adi@ss.cc}
+\phone{8989898989}
+\location{Panama}
+\linkedin{www.linkedin.com}
+\github{www.github.io}
+}
+\makecvheader
+\columnratio{0.6}
+\begin{paracol}{2}
+\cvsection{Education}
+
+\cvevent{mkmnn \ , knn}{jjhhh}{8988--8989}{}
+Score : 98
+
+\cvsection{Projects}
+
+\cvevent{nnnnmn}{mnnn}{mnnn--mnmn}{}
+mnmnmn
+
+\divider
+\medskip
+
+\cvsection{Experiences}
+
+\cvevent{student}{iiit}{2020--2020}{}
+student
+
+\divider
+\switchcolumn
+\cvsection{Skills}
+
+\cvtag{bbb}
+
+
+\cvsection{Achievements}
+
+\begin{itemize}
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\item mnmnmnn
+\end{itemize}
+\end{paracol}
+\end{document}

@@ -1,0 +1,206 @@
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";  /* This Line is to import Google font style */
+.content{
+width:860px;
+margin:20px auto
+}
+.main{
+float:left;
+width:850px;
+margin-top:80px
+}
+#progressbar{
+margin:0;
+padding:0;
+font-size:18px
+}
+#active1{
+color:#235c6d;
+}
+fieldset{
+display:none;
+width:450px;
+padding:20px;
+margin-top:15px;
+margin-left:100px;
+border-radius:5px;
+box-shadow:3px 3px 25px 1px gray
+}
+#first{
+display:block;
+width:450px;
+padding:20px;
+margin-top:15px;
+border-radius:5px;
+margin-left:100px;
+box-shadow:3px 3px 25px 1px gray
+}
+input[type=text],input[type=password],select{
+width:350px;
+margin:10px 0;
+height:40px;
+padding:5px;
+border:3px solid #ecb0dc;
+border-radius:4px
+}
+textarea{
+width:350px;
+margin:10px 0;
+height:70px;
+padding:5px;
+border:3px solid #ecb0dc;
+border-radius:4px
+}
+input[type=submit],input[type=button]{
+width:120px;
+margin:15px 25px;
+padding:5px;
+height:40px;
+background-color: #49a0d9;
+border:none;
+border-radius:4px;
+color:#fff;
+font-family:'Droid Serif',serif
+}
+h2,p{
+text-align:center;
+font-family:'Droid Serif',serif
+}
+li{
+margin-right:52px;
+display:inline;
+color:#c1c5cc;
+font-family:'Droid Serif',serif
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: wheat;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 553px;
+  right: 428px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 150px;
+  right: 700px;
+  border: 3px solid #07b650;
+  z-index: 9;
+  background-color: wheat;
+  width: 550px;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 100px;
+  background-color: rgb(131, 18, 52);
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 150px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #110f88;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: rgb(74, 35, 167);
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: rgb(187, 35, 35);
+  padding: 160px 200px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+  color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 0.5;
+}
+.subtitle{
+    color: springgreen;
+}
+.title{
+    color: tomato;
+}
+
+.sidenav {
+    height: 350px;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 190px;
+    left: 350px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-size: 25px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #38aaf0;
+    display: block;
+  }
+  
+  .sidenav a hover {
+    color: #b25010;
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+button{
+font-size: 16px;
+background: linear-gradient( #49a0d9  5%, #49a0d9  100%);
+border: 1px solid  #49a0d9 ;
+color: #4E4D4B;
+font-weight: bold;
+cursor: pointer;
+width: 100%;
+border-radius: 5px;
+padding: 10px 0;
+outline:none;
+}
+button:hover{
+background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+
